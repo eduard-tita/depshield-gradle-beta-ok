@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'ca.et'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-core:2.12.0'
+
+}
